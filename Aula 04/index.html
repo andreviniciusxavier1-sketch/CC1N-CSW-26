@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+        <p>Na frase temos uma <b>parte em negrito</b> usando a tag B (sem semântica)</p>
+        <p>Na frase temos uma <strong>parte em negrito</strong> usando a tag strong (com semântica)</p>
+<br>
+    <h2>Itálico/Ênfase</h2>
+        <p>Nesta frase vamos encontrar uma palavra em <i>itálico</i> com a tag i (sem semântica)</p>
+        <p>Nesta frase vamos encontrar uma palavra em <em>itálico</em> com a tag EM (com semântica)</p>
+<br>
+    <h2>Texto Marcador</h2>
+        <p>Nesta frase vamos encontrar uma parte com <mark style="background-color: green;"> destaque de marcador de texto</mark>, utilizando mark</p>
+        <p>Nesta frase vamos encontrar uma parte com <mark style="background-color: yellow;"> destaque de marcador de texto</mark>, utilizando mark</p>
+<br>
+    <h2>Texto grande e pequeno</h2>
+        <p>Neste texto vamos encontrar um <big> texto grande </big> utilizando a tag big</p>
+        <p>Neste texto vamos encontrar um <small>texto pequeno</small>utilizando a tag small</p>
+<br>
+    <h2>Deletado/Riscado</h2>
+        <p>Neste texto vamos encontrar um <strike>texto deletado</strike> com a tag strike</p>
+        <p>Neste texto vamos encontrar um <del>texto deletado</del> com a tag del</p>
+<br>
+    <h2>Inserido/Sublinhado</h2>
+        <p>Neste texto vamos encontrar uma palavra <u>sublinhada</u> com a tag U</p>
+        <p>Neste texto vamos encontrar uma palavra <ins>sublinhada</ins> com a tag INS</p>
+<br>
+    <h2>Sobrescrito</h2>
+        <p>Nexte texto vamos encontrar uma palavra <sup>sobrescrita </sup> com a tag sup</p>
+<br>
+    <h2>Subscrito</h2>
+        <p>Nexte texto vamos encontrar uma palavra <sub>subscrita</sub> com a tag sub</p>
+<br>
+    <h2>Inserir codigo</h2>
+        <p>Inserindo um codigo de linguagem diferente com a tag pre e code</p>
+        <p> 
+            <pre>
+                <code>
+                    function calcularBhaskara(a, b, c) {
+    if (a === 0) {
+        console.log("Isso não é uma equação do segundo grau.");
+        return;
+    }
+
+    let delta = b * b - 4 * a * c;
+    console.log("Delta =", delta);
+
+    if (delta < 0) {
+        console.log("A equação não possui raízes reais.");
+    } 
+    else if (delta === 0) {
+        let x = -b / (2 * a);
+        console.log("A equação possui uma única raiz real:", x);
+    } 
+    else {
+        let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+        let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+        console.log("As raízes são:");
+        console.log("x1 =", x1);
+        console.log("x2 =", x2);
+    }
+}
+                </code>
+            </pre>
+        </p>
+<br>
+        <h2>Endereço</h2>
+            <p> <address>Endereço </address> com a tag address</p>
+<br>
+        <h2>Abreviação</h2>
+            <p>Nesta frase temos a Sigla <abbr>HTML </abbr> e seu significado utilizando a tag abbr</p>
+
+</body>
+</html>
