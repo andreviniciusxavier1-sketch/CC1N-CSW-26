@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-09</title>
+</head>
+<body>
+<h1>Formulario</h1>
+<table border="1">
+    <form action="mailto:myemail@gmail.com" method="post">
+    <tr>
+        <td>
+            <label for="nome">Nome:</label>
+        </td>
+        <td>
+            <input type="text" name="nome" id="nome" size="25" 
+            maxlength="30" value="" placeholder="Digite seu Nome">  
+        
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="email">Email:</label>
+        </td>
+        <td>
+            <input type="email" name="email" id="email" size="25" 
+            maxlength="30" value="" placeholder="Digite seu Email">  
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="emailpatt">Email (patter):</label>
+        </td>
+        <td>
+            <input type="email" name="email" id="emailpatt" size="25" 
+            maxlength="30" value="" placeholder="Digite seu Email com @">  
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="senha">Senha:</label>
+        </td>
+        <td>
+            <input type="password" name="senha" id="senha" size="25" 
+            maxlength="8" value="">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="idade">Idade:</label>
+        </td>
+        <td>
+            <input type="number" name="senha" id="idade" size="7" 
+            maxlength="3" value="">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <label for=" ">Deixe um comentário:</label>
+                <br>
+            <textarea name="comment" cols="50" rows="7" 
+            placeholder="Escreva aqui um comentário" readonly>
+            </textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for=" ">Matéria de Interesse:</label>
+                <br>
+            <input type="checkbox" name="back" value="back"> Backend
+                <br>
+            <input type="checkbox" name="front" value="front"> Frontend
+                <br>
+            <input type="checkbox" name="full" value="full"> FullStack
+        </td>
+        <td>
+            <label for=" ">Tipo de Viagem:</label>
+                <br>
+            <input type="radio" id="opcao" name="opcao" value=""> Negócios 
+                <br>
+            <input type="radio" id="opcao" name="opcao" value=""> Lazer
+                <br>
+            <input type="radio" id="opcao" name="opcao" value=""> Turista 
+                <br>
+            <input type="radio" id="opcao" name="opcao" value=""> Acadêmico 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for=" ">Esporte favorito</label> 
+            <select name="esportes" size="4">
+                <option value="1">Futebol</option>
+                <option value="2">Volei</option>
+                <option value="3">Basquete</option>
+                <option value="4">Surf</option>
+            </select>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    </form>
+</table>
+</body>
+</html>
