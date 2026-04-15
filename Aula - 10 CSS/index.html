@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 10</title>
+</head>
+<body>
+    <style>
+        :root{
+            --text-dark: #211f1b;
+            --primary-color: #8a0202;
+            --primary-color-dark: #630101;
+            --white: #e6e0dd;
+        }
+        .chap2 {
+            color: var( --text-dark);
+            background-color: antiquewhite;
+        }
+
+        .chap2h3 {
+            color: var(--white);
+            background-color: var(--text-dark);
+        }
+    </style>
+<h1>Utilizando os 3 tipos de CSS!</h1>
+    <hr>
+<h2 style="color: var(--primary-color); background-color: var(--text-dark);">Capítulo 1: CSS InLine.</h2>
+    <h3 style="color:blue;">Capítulo 1.1</h3>
+    <h3 style="color:blue;>Capítulo 1.2</h3>
+<h2 class="chap2">Capítulo 2: Css Internal Code</h2>
+    <h3 class="chap2h3">Capítulo 2.1</h3>
+    <h3 class="chap2h3" >Capítulo 2.2</h3>
+<h2>Capítulo 3: Css Externo (Style.css)</h2>
+    <h3>Capítulo 3.1</h3>
+</body>
+</html>
